@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 220 160" width="220" height="160">
+  <!-- White background -->
+  <rect width="220" height="160" fill="white"/>
+
+  <!-- Satellite dish / rocket graphic (orange) -->
+  <!-- Main rocket body -->
+  <g transform="translate(30, 8)">
+    <!-- Rocket flame/body -->
+    <path d="M55 70 Q50 40 55 10 Q60 40 65 70 Z" fill="#E8520A"/>
+    <!-- Rocket tip -->
+    <polygon points="55,5 50,25 60,25" fill="#E8520A"/>
+    <!-- Left fin -->
+    <path d="M50 60 Q40 70 38 80 Q48 72 55 68 Z" fill="#E8520A"/>
+    <!-- Right fin -->
+    <path d="M60 60 Q70 70 72 80 Q62 72 55 68 Z" fill="#E8520A"/>
+    <!-- Rocket window -->
+    <circle cx="55" cy="42" r="5" fill="white" stroke="#E8520A" stroke-width="1.5"/>
+
+    <!-- Left satellite panel -->
+    <rect x="10" y="30" width="30" height="18" rx="2" fill="#1A6BAA" transform="rotate(-15, 25, 39)"/>
+    <line x1="38" y1="37" x2="48" y2="40" stroke="#555" stroke-width="1.5"/>
+    <!-- Panel grid lines -->
+    <line x1="10" y1="35" x2="40" y2="31" stroke="white" stroke-width="0.8" opacity="0.6" transform="rotate(-15, 25, 39)"/>
+    <line x1="10" y1="41" x2="40" y2="37" stroke="white" stroke-width="0.8" opacity="0.6" transform="rotate(-15, 25, 39)"/>
+    <line x1="20" y1="30" x2="17" y2="48" stroke="white" stroke-width="0.8" opacity="0.6" transform="rotate(-15, 25, 39)"/>
+    <line x1="30" y1="30" x2="27" y2="48" stroke="white" stroke-width="0.8" opacity="0.6" transform="rotate(-15, 25, 39)"/>
+
+    <!-- Right satellite panel -->
+    <rect x="72" y="30" width="30" height="18" rx="2" fill="#1A6BAA" transform="rotate(15, 87, 39)"/>
+    <line x1="62" y1="37" x2="72" y2="40" stroke="#555" stroke-width="1.5"/>
+    <!-- Panel grid lines -->
+    <line x1="72" y1="35" x2="102" y2="31" stroke="white" stroke-width="0.8" opacity="0.6" transform="rotate(15, 87, 39)"/>
+    <line x1="72" y1="41" x2="102" y2="37" stroke="white" stroke-width="0.8" opacity="0.6" transform="rotate(15, 87, 39)"/>
+    <line x1="82" y1="30" x2="85" y2="48" stroke="white" stroke-width="0.8" opacity="0.6" transform="rotate(15, 87, 39)"/>
+    <line x1="92" y1="30" x2="95" y2="48" stroke="white" stroke-width="0.8" opacity="0.6" transform="rotate(15, 87, 39)"/>
+  </g>
+
+  <!-- Hindi text: इसरो (orange) -->
+  <text x="15" y="128" font-family="Arial, Noto Sans Devanagari, sans-serif" font-size="36" font-weight="bold" fill="#E8520A">इसरो</text>
+
+  <!-- Vertical divider -->
+  <line x1="120" y1="100" x2="120" y2="145" stroke="#999" stroke-width="1.5"/>
+
+  <!-- English text: isro (blue) -->
+  <text x="128" y="143" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="#1A6BAA" font-style="italic">isro</text>
+</svg>
