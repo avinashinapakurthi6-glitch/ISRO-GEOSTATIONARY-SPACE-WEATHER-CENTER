@@ -23,3 +23,13 @@ models/*.pt
 # OS
 .DS_Store
 Thumbs.db
+
+# Frontend - Node modules & build
+frontend/node_modules/
+frontend/.next/
+frontend/.env*.local
+
+# Large data files (raw CDF files - download separately)
+data/raw/
+data/processed/*.parquet
+*.cdf
