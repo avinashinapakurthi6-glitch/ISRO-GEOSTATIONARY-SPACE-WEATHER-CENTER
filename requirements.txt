@@ -1,0 +1,12 @@
+cdflib
+pandas
+numpy
+scipy
+matplotlib
+seaborn
+xgboost
+scikit-learn
+torch
+streamlit
+pyarrow
+mlflow
