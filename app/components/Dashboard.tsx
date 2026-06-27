@@ -761,7 +761,7 @@ AUTHENTICATION KEY: ISRO-SW-${primaryModel}-EAD-V1.2
                         strokeDasharray="3 3" dot={false} connectNulls={false} legendType="none" />
                       <Line dataKey="q90" name="90th Quantile" stroke="#2563eb" strokeWidth={1}
                         strokeDasharray="3 3" dot={false} connectNulls={false}
-                        label={{ value: `${primaryModel} Band`, fill: "#3b82f6", fontSize: 10, position: "insideTopRight" }} />
+                        label={{ value: `${primaryModel} Band`, fill: "#3b82f6", fontSize: 10, position: "insideTopRight" } as any} />
 
                       {/* Model medians */}
                       {compareModels.map((m) => (
